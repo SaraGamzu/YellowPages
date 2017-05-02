@@ -1,0 +1,2 @@
+C:\Users\user\Desktop\klarna\workspace\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\user\Desktop\klarna\workspace\obj\Debug\YellowPages.njsprojResolveAssemblyReference.cache

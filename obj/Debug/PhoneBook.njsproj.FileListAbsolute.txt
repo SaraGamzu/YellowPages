@@ -1,0 +1,4 @@
+C:\Users\user\Downloads\phonebook\workspace\obj\Debug\PhoneBook.njsprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\phonebook\workspace\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\user\Desktop\klarna\workspace\obj\Debug\PhoneBook.njsprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\klarna\workspace\bin\Microsoft.NodejsTools.WebRole.dll
