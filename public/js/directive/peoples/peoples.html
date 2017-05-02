@@ -1,0 +1,16 @@
+﻿
+<div ng-repeat="people in peoplesData "><!--| orderBy:'name'-->
+    <div class="cui__selector--direct__item">
+        <!--<img  ng-src="{{people.avatar_origin}}"/>-->
+        <img class="user-avatar" src="../../../img/anscombe.jpg" />
+        <div class="cui__selector--direct__label">
+            {{::people.name}}, {{::people.birthday | age}}
+        </div>
+        <p class="cui__selector--direct__description">
+            {{::people.address.street}}. {{::people.address.city}}, {{::people.address.country}}.
+        </p>
+        <p class="cui__selector--direct__description">
+            {{::people.phone}}
+        </p>
+    </div>
+</div>

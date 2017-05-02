@@ -1,0 +1,1 @@
+app = angular.module('app', ['age-filter', 'lazy-load']);

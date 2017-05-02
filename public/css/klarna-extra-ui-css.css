@@ -1,0 +1,21 @@
+﻿.search {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.user-avatar {
+    float: left;
+    margin-right: 12px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.results {
+    margin-top: 40px;
+}
+
+.results-list {
+    height: 75%;
+    position: sticky;
+    overflow: auto;
+}
