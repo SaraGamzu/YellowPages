@@ -1,7 +1,7 @@
 ﻿app.directive('peoples', function () {
     return {
         scope: {
-            peoplesData : '='
+            peoplesData: '='
         },
         templateUrl: 'js/directive/peoples/peoples.html'
     }

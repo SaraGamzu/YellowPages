@@ -1,2 +1,4 @@
 C:\Users\user\Desktop\klarna\workspace\bin\Microsoft.NodejsTools.WebRole.dll
 C:\Users\user\Desktop\klarna\workspace\obj\Debug\YellowPages.njsprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\YellowPages\obj\Debug\YellowPages.njsprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\YellowPages\bin\Microsoft.NodejsTools.WebRole.dll

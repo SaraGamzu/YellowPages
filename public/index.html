@@ -4,37 +4,33 @@
     <link href='css/klarna-ui-css-components.css' rel='stylesheet' type='text/css'>
     <link href="css/klarna-extra-ui-css.css" rel="stylesheet" />
     <link href="css/scroll.css" rel="stylesheet" />
+
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/iconv/lib/iconv.js"></script>
+    <script src="js/lib/jquery-1.10.2.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/shared/ageFilter.js"></script>
+    <script src="js/shared/lazyLoad.js"></script>
+    <script src="js/controllers/MainCtrl.js"></script>
+    <script src="js/services/MainService.js"></script>
+    <script src="js/directive/peoples/peoples.js"></script>
     <title>Yellow Pages</title>
 </head>
 <body ng-app="app" ng-cloak>
-    <div ng-controller="MainCtrl" class="search" >
+    <div ng-controller="MainCtrl" class="search">
         <div class="cui__input giant">
-            <input class="cui__input__input"  placeholder="Type your search query" ng-model="searchText"  ng-change="filterPeoples()"/>
+            <input class="cui__input__input" placeholder="Type your search query" ng-model="searchText" ng-change="filteredPeoples()" />
         </div>
         <div class="results">
             <div class="cui__selector--direct title">
-                <h2 class="cui__selector--direct__title" ng-if="displayPeoples.length == 0">
-                    There is no data to display
+                <h2 class="cui__selector--direct__title">
+                    {{resultMsg}}
                 </h2>
-                <div  ng-if="displayPeoples.length > 0">
-                    <h2 class="cui__selector--direct__title">
-                        Search results
-                    </h2>
-                    <div class="results-list" lazy-load="loadMore()">
-                        <peoples peoples-data="displayPeoples"></peoples>
-                    </div>
+                <div class="results-list" lazy-load="loadMore()" ng-if="displayPeoples.length > 0">
+                    <peoples peoples-data="displayPeoples"></peoples>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
-<script src="../node_modules/angular/angular.js"></script>
-<script src="js/lib/jquery-1.10.2.js"></script>
-<script src="js/app.js"></script>
-<script src="js/shared/ageFilter.js"></script>
-<script src="js/shared/lazyLoad.js"></script>
-<script src="js/controllers/MainCtrl.js"></script>
-<script src="js/services/MainService.js"></script>
-<script src="js/directive/peoples/peoples.js"></script>
 </html>

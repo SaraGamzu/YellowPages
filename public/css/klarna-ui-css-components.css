@@ -4529,8 +4529,8 @@
   .cui__selector--direct__description .cui__promo-label:first-child {
     left: 0; }
 
-.cui__selector--direct__description + .cui__selector--direct__description {
-  margin: 5px 0 2px 0; }
+/*.cui__selector--direct__description + .cui__selector--direct__description {
+  margin: 5px 0 2px 0; }*/
 
 .cui__selector--direct__title {
   -webkit-font-smoothing: antialiased;

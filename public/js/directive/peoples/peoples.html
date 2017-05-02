@@ -1,8 +1,7 @@
 ﻿
-<div ng-repeat="people in peoplesData "><!--| orderBy:'name'-->
+<div ng-repeat="people in peoplesData">
     <div class="cui__selector--direct__item">
-        <!--<img  ng-src="{{people.avatar_origin}}"/>-->
-        <img class="user-avatar" src="../../../img/anscombe.jpg" />
+        <img class="user-avatar" ng-src="{{people.avatar_origin}}"/>
         <div class="cui__selector--direct__label">
             {{::people.name}}, {{::people.birthday | age}}
         </div>
