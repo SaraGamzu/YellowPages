@@ -1,5 +1,6 @@
 ﻿
-var peoplesController = require("../api/controllers/PeoplesController");
+var path = require('path');
+var peoplesController = require("../api/controllers/peoplesController");
 
 module.exports = {
     init: function (app) {
